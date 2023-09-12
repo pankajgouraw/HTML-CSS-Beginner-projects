@@ -22,4 +22,4 @@ a{font-family: sans-serif; text-decoration: none; color:#000;}
 .horizontalNavbar h3{line-height: 60px; padding-left:20px}
 .horizontalNavbar li a{line-height: 60px;}
 li:hover{background-color: #000;}
-li:hover a{background-color: #fff;}
+li:hover a{color: #fff;}
