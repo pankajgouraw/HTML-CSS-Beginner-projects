@@ -1,0 +1,25 @@
+*{margin:0;padding:0;}
+.wrapper{margin:10px;}
+.verticalNavbar{ background-color: #ddd; width:25%; float:left;padding:10px;
+    text-align: center; height: 94vh;
+}
+img{margin-bottom:50px;}
+.horizontalNavbar{background-color: #ddd; width:70%; float:right;padding:10px;
+    height: 94vh;
+}
+
+li{list-style: none;}
+a{font-family: sans-serif; text-decoration: none; color:#000;}
+
+.verticalNavbar li{padding:15px 0px; }
+.active{background-color: #000; color:#fff;}
+.active a{ color:#fff}
+.horizontalNavbar h3{float:left;}
+.horizontalNavbar ul{float:right;}
+.horizontalNavbar li{float:left; padding:0px 15px;}
+
+.horizontalNavbar > div{border:1px solid #fff; height:60px;}
+.horizontalNavbar h3{line-height: 60px; padding-left:20px}
+.horizontalNavbar li a{line-height: 60px;}
+li:hover{background-color: #000;}
+li:hover a{background-color: #fff;}
